@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/playfair-display-v30-latin-regular.woff2') format('woff2'),
+         url('../fonts/playfair-display-v30-latin-regular.woff') format('woff'); 
+  }
+
+  .bg-color {
+    background-color: RGBA(33,37,41,var(--bs-bg-opacity,1))!important;
+    padding: 3rem;
+    border-radius: 5px;
+    margin-bottom: 1.25rem;
+  }
+
+  body {
+      font-weight: 400;
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  }
+
+  .header-large {
+    text-decoration: underline;
+    font-size: 2.25rem;
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 3rem;
+    font-style: italic;
+  }
+
+  .line {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+
+  .thumb {
+    position: relative;
+    padding-top: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thum {
+    padding-top: 120px;
+      color: #fff;
+    margin: 0 auto;
+  }
+
+  .aria {
+    margin: 60px 0;
+  }
+
+  .foter {
+    padding: 50px 0;
+  }
